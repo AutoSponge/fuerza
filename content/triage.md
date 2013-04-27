@@ -12,6 +12,8 @@ Step 3: This site can help you:
 4. It will help you determine which devices and tools are being used to abuse.
 5. Finally, it will provide some suggestions for stopping the abuse.
 
+* Do you have an [Android-based](#android1 "Android") mobile device?
+
 [Summary](#summary)
 [Back](#back)
 #### Triage ####

@@ -707,6 +707,8 @@ else
             var link_id = m3.toLowerCase();
             var url = m4;
             var title = m7;
+            var width = null;
+            var match;
 
             if (!title) title = "";
 
@@ -730,6 +732,11 @@ else
 
             alt_text = escapeCharacters(attributeEncode(alt_text), "*_[]()");
             url = escapeCharacters(url, "*_");
+            if (/width:[^\s]+/.test(m5)) {
+                match = m5.match(/width:([^\s]+)/);
+                width = match[1];
+                title = title.replace(match[0], "");
+            }
             var result = "<img src=\"" + url + "\" alt=\"" + alt_text + "\"";
 
             // attacklab: Markdown.pl adds empty title attributes to images.
@@ -739,6 +746,9 @@ else
             title = attributeEncode(title);
             title = escapeCharacters(title, "*_");
             result += " title=\"" + title + "\"";
+            if (width) {
+                result += " width='" + width + "'";
+            }
             //}
 
             result += " />";
