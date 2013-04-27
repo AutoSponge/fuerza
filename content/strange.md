@@ -13,6 +13,7 @@ them through a secure channel before they can start to help you, so that your ab
 Recommendations
 ---
 [Android Device](#android1 "Help with Android Devices")
+[iPhone Device] (#iphone "Help with iPhone Devices")
 [Back](#back)
 #### Devices ####
 </script>

@@ -15,7 +15,7 @@ for example secure phone or secure email.
 
 * Do you have an [Android-based](#android1 "Android") mobile device?
 
-[Summary](#summary)
+[Recommendations](#recommendations)
 [Back](#back)
 #### Triage ####
 </script>
