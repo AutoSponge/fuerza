@@ -5,14 +5,14 @@ Recommendations
 Someone is reading my Internet history
 ----
 
-* I'm using Safari. 
+* **I'm using Safari.**
 
 1. Go to the History option on the menu.
 2. The last option on the menu will be "Clear History." Click it.
 
 	![safari](img/Safari%20delete%20history.jpg "width:400px")
 
-* I'm using Firefox.
+* **I'm using Firefox.**
 
 1. In the bar at the top of your screen or browser, select "Tools."
 2. There should be an option called "Clear Recent History." Click on that.
@@ -21,14 +21,14 @@ Someone is reading my Internet history
 	
 	![firefox clear history](img/Firefox%20clear%20history.png "width:400px")
 
-* If you have an older version of Firefox:
+* **If you have an older version of Firefox:**
 
 1. Go to the "Tools" menu and click "Options."
 2. On the menu that pops up, click the "Privacy" button.
 3. Go to "History," and click "Clear."
 
 
-* I'm using Chrome.
+* **I'm using Chrome.**
 
 1. Go to History on the browser menu.
 2. The last item on the drop-down menu will be "Show all history." Click it.

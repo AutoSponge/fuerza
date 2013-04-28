@@ -22,20 +22,20 @@ Type "regsvr32 /u netknl.dll" in the command line window and press "Enter" to un
 My computer has an unknown keystroke tracker on it
 ---
 
-* Run a search for keystroke trackers.
+* **Run a search for keystroke trackers.**
 1. Press the "Ctrl," "Shift" and "Esc" keys at the same time to start the Task Manager.
 2. Click the "Processes" tab in the Task Manager's window.
 3. Select "winnetcl.exe" from the list of the processes and click "End Process" button. 
 4. Select "webebot.exe" from the list of the processes and click "End Process" button.
 
-* Use an on-screen keypad on a PC.
+* **Use an on-screen keypad on a PC.**
 1. Click on Start
 2. Go to All Programs
 3. Click onAccessories
 4. Select Accessibility
 5. Click on On-Screen Keyboard
 
-* Use an on-screen keypad on a Mac.
+* **Use an on-screen keypad on a Mac.**
 1. Click on the tiny flag on the menu bar at the upper right of your screen.
 2. Click "show keyboard viewer." Click the letters on the screen instead of typing on your keyboard.
             
