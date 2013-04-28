@@ -1,5 +1,5 @@
 <script src="../js/included.js" type="text/javascript">
-Step 3: Recommendations
+Recommendations
 ====
 
 Recommendations

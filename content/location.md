@@ -1,5 +1,5 @@
 <script src="../js/included.js" type="text/javascript">
-Category: Attack Vectors
+Attack Vectors
 ===
 
 Location

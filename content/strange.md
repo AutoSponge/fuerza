@@ -1,5 +1,5 @@
 <script src="../js/included.js" type="text/javascript">
-Category: Attack Vectors
+Attack Vectors
 ===
 
 Devices
@@ -14,7 +14,7 @@ Recommendations
 ---
 [Android Device](#android1 "Help with Android Devices")
 
-[iPhone Device] (#iphone1 "Help with iPhone Devices")
+[iPhone Device](#iphone1 "Help with iPhone Devices")
 
 [Back](#back)
 #### Devices ####

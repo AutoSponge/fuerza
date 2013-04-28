@@ -25,7 +25,8 @@ My computer has an unknown keystroke tracker on it
 * Run a search for keystroke trackers.
 1. Press the "Ctrl," "Shift" and "Esc" keys at the same time to start the Task Manager.
 2. Click the "Processes" tab in the Task Manager's window.
-3. Select "winnetcl.exe" from the list of the processes and click "End Process" button. Select "webebot.exe" from the list of the processes and click "End Process" button.
+3. Select "winnetcl.exe" from the list of the processes and click "End Process" button. 
+4. Select "webebot.exe" from the list of the processes and click "End Process" button.
 
 * Use an on-screen keypad on a PC.
 1. Click on Start
