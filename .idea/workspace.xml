@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383b17fb-71e5-48ef-8dab-576939bfdc14" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="autosponges-fuerza.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="383b17fb-71e5-48ef-8dab-576939bfdc14" time="1367175635245" ignored="false" />
     <file path="/triage.md" changelist="383b17fb-71e5-48ef-8dab-576939bfdc14" time="1367093306406" ignored="false" />
     <file path="/custom.js" changelist="383b17fb-71e5-48ef-8dab-576939bfdc14" time="1367089121017" ignored="false" />
-    <file path="/index.html" changelist="383b17fb-71e5-48ef-8dab-576939bfdc14" time="1367176190389" ignored="false" />
+    <file path="/index.html" changelist="383b17fb-71e5-48ef-8dab-576939bfdc14" time="1367184099856" ignored="false" />
     <file path="/triage.yml" changelist="383b17fb-71e5-48ef-8dab-576939bfdc14" time="1367071400121" ignored="false" />
-    <file path="/custom.css" changelist="383b17fb-71e5-48ef-8dab-576939bfdc14" time="1367073490142" ignored="false" />
+    <file path="/custom.css" changelist="383b17fb-71e5-48ef-8dab-576939bfdc14" time="1367186090148" ignored="false" />
     <file path="/question.html" changelist="383b17fb-71e5-48ef-8dab-576939bfdc14" time="1367075648649" ignored="false" />
     <file path="/pages.md" changelist="383b17fb-71e5-48ef-8dab-576939bfdc14" time="1367083613118" ignored="false" />
     <file path="/summary.md" changelist="383b17fb-71e5-48ef-8dab-576939bfdc14" time="1367086967271" ignored="false" />
@@ -37,19 +39,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="intro.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/intro.md">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="36" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+            <state line="10" column="52" selection-start="348" selection-end="348" vertical-scroll-proportion="-3.3333333">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="20" selection-start="4093" selection-end="4093" vertical-scroll-proportion="0.3960396">
+            <state line="65" column="24" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.8635321">
               <folding />
             </state>
           </provider>
@@ -76,7 +78,6 @@
         <option value="$PROJECT_DIR$/old/page2.html" />
         <option value="$PROJECT_DIR$/data/triage.yml" />
         <option value="$PROJECT_DIR$/js/js-yaml.js" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/data/triage.md" />
         <option value="$PROJECT_DIR$/old/question.html" />
         <option value="$PROJECT_DIR$/content/pages.md" />
@@ -89,6 +90,7 @@
         <option value="$PROJECT_DIR$/content/background.md" />
         <option value="$PROJECT_DIR$/js/Markdown.Converter.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
   </component>
@@ -140,6 +142,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fuerza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autosponges-fuerza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuerza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autosponges-fuerza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuerza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,19 +352,26 @@
         <state line="11" column="0" selection-start="177" selection-end="190" vertical-scroll-proportion="0.22077923" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="20" selection-start="4093" selection-end="4093" vertical-scroll-proportion="0.3960396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/intro.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+        <state line="14" column="36" selection-start="542" selection-end="542" vertical-scroll-proportion="0.27293578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="52" selection-start="348" selection-end="348" vertical-scroll-proportion="-3.3333333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="24" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.8635321">
           <folding />
         </state>
       </provider>

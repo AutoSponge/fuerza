@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
+    <title>Fuerza | Stop cyber stalking cold</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -28,6 +28,7 @@
         }
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -35,11 +36,11 @@
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/glasFav.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/glasFav.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/glasFav.png">
+    <link rel="apple-touch-icon-precomposed" href="img/glasFav.png">
+    <link rel="shortcut icon" href="img/glasFav.png">
 </head>
 
 <body>
@@ -52,16 +53,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#">Project name</a>
+            <a class="brand" href="#"><img src="img/FuerzaLogo.png"></a>
             <div class="nav-collapse collapse">
-                <p class="navbar-text pull-right">
+<!--                <p class="navbar-text pull-right">
                     Logged in as <a href="#" class="navbar-link">Username</a>
-                </p>
-                <ul class="nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+                </p>-->
+<!--                <ul class="nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Can I Help?</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>-->
             </div><!--/.nav-collapse -->
         </div>
     </div>
@@ -69,7 +71,7 @@
 
 <div class="container-fluid">
     <div class="row-fluid">
-        <div class="span3">
+        <div class="span3 visible-desktop">
 <!--            <div class="well sidebar-nav">
                 <ul class="nav nav-list">
                     <li class="nav-header">Sidebar</li>
@@ -93,26 +95,43 @@
         </div><!--/span-->
         <div class="span9">
             <div class="hero-unit">
-                <h1>Hello, world!</h1>
-                <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                <p><a href="#" class="btn btn-primary btn-large">Am I Being Stalked? &raquo;</a>
-                    <a href="#" class="btn btn-primary btn-large">How Can I Help? &raquo;</a></p>
+                <h1>Are You Being Cyber Stalked?</h1>
+                <p>Find out now by...</p>
+                <p><!--<a href="#myModal" class="btn btn-primary btn-large" data-toggle="modal">Am I Being Stalked? &raquo;</a>-->
+                    <!--<a href="#" class="btn btn-primary btn-large">How Can I Help? &raquo;</a></p>-->
+                    <span class="action"><a href="#myModal" data-toggle="modal"><img src="img/btn_Stalked.png"></a></span>
+                    <span class="action"><a href="#"><img src="img/btn_Help.png"></a></span>
+
+                <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 id="myModalLabel"><img src="img/FuerzaLogo.png"></h3>
+                    </div>
+                    <iframe src="app/index.html" width="99%" height="480px"></iframe>
+                    <div class="modal-footer">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                    </div>
+                </div>
+
             </div>
             <div class="row-fluid">
                 <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
+                    <p><img src="img/devices.png"></p>
+                    <span class="header">Check Your Device</span>
+                    <p>Abusers can use relatively inexpensive software to spy on your phone, giving them access to your text messages, call history and even GPS location. Some spy software goes so far as to turn your camera on in “stealth mode,” recording your movements and conversations. If your abuser knows where you are, who you’re talking to and what you’re talking about, he could have installed this software on your phone</p>
+                    <p><a class="" href="#"><img src="img/btn_ReadMore.png"></a></p>
                 </div><!--/span-->
                 <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
+                    <p><img src="img/computer.png"></p>
+                    <span class="header">Check Your Computer</span>
+                    <p>Abusers can buy software that track every keystroke you make on your computer, giving them access to your emails, Internet history and passwords. They can also relatively easily check your browser history to see which sites you’ve been visiting.</p>
+                    <p><a class="" href="#"><img src="img/btn_ReadMore.png"></a></p>
                 </div><!--/span-->
                 <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
+                    <p><img src="img/home.png"></p>
+                    <span class="header">Check Your Home and Car</span>
+                    <p></p>It’s easy for an abuser to install microphones and GPS devices in their victim’s home and car. If the abuser knows where you are and the content of your conversations even when your phone is not with you, there may be a bug or tracker physically planted somewhere. Unfortunately, these can be very difficult to find.</p>
+                    <p><a class="" href="#"><img src="img/btn_ReadMore.png"></a></p>
                 </div><!--/span-->
             </div><!--/row-->
 <!--            <div class="row-fluid">
@@ -138,7 +157,7 @@
     <hr>
 
     <footer>
-        <p>&copy; Company 2013</p>
+        <p>&copy; Fuerza 2013</p>
     </footer>
 
 </div><!--/.fluid-container-->
