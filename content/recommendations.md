@@ -12,7 +12,7 @@ Recommendations
 
 [Web Browsers](#browser_history "Help with web browsers")
 
-[Diagnosis](#diagnosis)
+<!-- [Diagnosis](#diagnosis) -->
 [Back](#back)
 #### Recommendations ####
 </script>
